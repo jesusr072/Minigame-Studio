@@ -1,0 +1,55 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"APSU"
+		]
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "f89ff772-b82b-43a0-8582-fffd6c0e7fb1",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "bdfe65e2-9071-4ee3-916f-3d8168ea500a",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "eb42d7e5-c62d-4185-9f8e-a26f4d1d492c",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.4.0"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "2.0.0"
+		}
+	]
+}
